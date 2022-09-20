@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="-X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .join {
+        background-color: white;
+        color: rgb(21, 161, 242);
+        height: 37px;
+        width: 70px;
+        border-color: rgb(21, 161, 242);
+        border-radius: 5px;
+        border-style: solid;
+        border-width: 1px;
+        cursor: pointer;
+
+        transition: backgroud-color 1s;
+        color: 1s;
+      }
+      .join hover {
+        background-color: rgb(21, 161, 242);
+        color: #fff;
+      }
+
+      .join active {
+        opacity: 0.7;
+      }
+      .sub {
+        background-color: rgba(243, 11, 11, 0.862);
+        color: white;
+        height: 37px;
+        width: 100px;
+        padding: 15px;
+        border: none;
+        margin-left: 4px;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: opacity 0.35s;
+      }
+
+      .sub hover {
+        opacity: 0.7;
+      }
+      .sub active {
+        opacity: 0.5;
+      }
+
+      .tweet {
+        background-color: rgb(21, 161, 242);
+        color: #fff;
+        height: 37px;
+        width: 80px;
+        font-weight: bold;
+        font-size: 15px;
+        border: none;
+        border-radius: 50px;
+        cursor: pointer;
+        transition: box shadow 1s;
+        margin-left: 4px;
+      }
+
+      .tweet hover {
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15);
+      }
+
+      .Addtocart {
+        background-color: rgb(255, 216, 20);
+        color: #000;
+        padding-top: 16px;
+        padding-left: 40px;
+        padding-bottom: 16px;
+        padding-right: 40px;
+        font-weight: bold;
+        font-size: 16px;
+        border: none;
+        border-radius: 50px;
+        cursor: pointer;
+        transition: box shadow 1s;
+        margin-left: 4px;
+      }
+
+      .Addtocart hover {
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15);
+      }
+
+      .Signup {
+        background-color: rgb(46, 164, 79);
+        color: #fff;
+        height: 50px;
+        padding-left: 40px;
+        padding-right: 40px;
+
+        align-items: center;
+        font-weight: bold;
+        font-size: 15px;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        margin-left: 4px;
+        transition: box shadow 1s;
+      }
+
+      .Signup hover {
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15);
+      }
+      .Getstarted {
+        background-color: rgb(121, 82, 179);
+        color: #fff;
+        height: 40px;
+        padding-left: 40px;
+        padding-right: 40px;
+
+        display: flex;
+        align-items: center;
+        font-weight: bold;
+        font-size: 15px;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+      }
+
+      .Download {
+        background-color: #fff;
+        color: rgb(21, 161, 242);
+        height: 40px;
+        padding-left: 30px;
+        padding-right: 30px;
+        align-items: center;
+        border-color: rgb(21, 161, 242);
+        border-radius: 5px;
+        border-style: solid;  8
+        border-width: 1px;
+        cursor: pointer;
+      }
+      .Getstarted,
+      .Download {
+        display: inline-block;
+      }
+
+      .Download:hover {
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15);
+      }
+    </style>
+  </head>
+  <body>
+    <button class="join">JOIN</button>
+    <buton class="sub">SUBSCRIBE</buton>
+    <button class="tweet">Tweet</button>
+    <button class="Addtocart">Add to Cart</button>
+    <button class="Signup">Sign up</button>
+    <button class="Getstarted">Get started</button>
+    <button class="Download">Download</button>
+  </body>
+</html>

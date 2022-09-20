@@ -1,0 +1,50 @@
+*{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.innerdiv{
+  background-color: black;
+  display: inline-block;
+  border: none;
+  width: 230px;
+  padding: 2px 15px 4px 7px;
+}
+
+label{
+  color: white;
+  font-weight: bold;
+}
+
+input{
+  outline: none;
+  border: none;
+}
+
+#username,#email{
+  border-radius: 5px;
+  height: 18px;
+}
+
+#submit{
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 5px 15px 5px 15px;
+}
+
+.outerdiv{
+  background-color: rgb(0, 250, 154);
+  padding: 5px 0px 16px 5px;
+  display: inline-block;
+}
+
+.outerdiv p{
+  font-weight: 700;
+  letter-spacing: 0.2px;
+  font-size: 24px;
+}
+
+::selection{
+  background: #b3d4fc;
+  text-shadow: none;
+}

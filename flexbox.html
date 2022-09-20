@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>flexbox</title>
+
+    <style>
+      .container {
+        display: flex;
+        height: 60px;
+        justify-content: space-between;
+      }
+      .search {
+        display: flex;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div style="background-color: pink; flex: 1">flexbox</div>
+      <div id="search-input" class="ytd-searchbox" slot="search-input"><input id="search" autocapitalize="none" autocomplete="off" name="search_query" type text></div>
+      <div style="background-color: pink; flex: 1">flexbox</div>
+    </div>
+  </body>
+</html>
